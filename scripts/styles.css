@@ -1,0 +1,17 @@
+/*
+Css for the whole website.
+*/
+@font-face {
+    /* Sans has less gaps */
+    font-family: 'Determination-Sans';
+    src: url('./fonts/DTM-Sans.otf') format('opentype');
+}
+@font-face {
+    /* Bigger gaps between each letter */
+    font-family: 'Determination-Mono';
+    src: url('./fonts/DTM-Mono.otf') format('opentype');
+}
+* {
+    font: 'Determination-Sans';
+    color:black;
+}
