@@ -30,21 +30,21 @@ Both by Haley Wakamatsu or UkiyoMoji Fonts
 * {
     font-family: 'Determination-Sans';
     font-size: 16px;
-    color: black;
+    color: white;
 }
 html {
     background-color: black;
 }
-.title-txt-b {
+.title-text-b {
     font-family: 'MonsterFriend-Back';
     color: rgb(100, 100, 100);
     opacity: 50%;
 }
-.title-txt-c {
+.title-text-c {
     font-family: 'MonsterFriend-Center';
     color: rgb(255, 0, 0);
 }
-.title-txt-f {
+.title-text-f {
     font-family: 'MonsterFriend-Fore';
     color: white;
 }
