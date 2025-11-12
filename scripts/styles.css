@@ -41,7 +41,6 @@ html {
     display: inline-block;
 }
 .text-container h1 {
-    position: absolute;
     font-size: 24px;
 }
 .text-container .title-text-b {
