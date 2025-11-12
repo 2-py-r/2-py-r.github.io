@@ -29,11 +29,16 @@ Both by Haley Wakamatsu or UkiyoMoji Fonts
 }
 * {
     font-family: 'Determination-Sans';
-    font-size: 16px;
+    /* font-size: 16px; */
     color: white;
 }
 html {
     background-color: black;
+}
+.text-container {
+    position: relative;
+    width: max-content;
+    margin: 25px;
 }
 .title-text-b {
     font-family: 'MonsterFriend-Back';
