@@ -38,18 +38,25 @@ html {
 .text-container {
     position: relative;
     width: max-content;
-    margin: 25px;
+    display: inline-block;
 }
-.title-text-b {
+.text-container h1 {
+    position: absolute;
+    font-size: 24px;
+}
+.text-container .title-text-b {
     font-family: 'MonsterFriend-Back';
     color: rgb(100, 100, 100);
     opacity: 50%;
+    z-index: 1;
 }
-.title-text-c {
+.text-container .title-text-c {
     font-family: 'MonsterFriend-Center';
     color: rgb(255, 0, 0);
+    z-index: 2;
 }
-.title-text-f {
+.text-container .title-text-f {
     font-family: 'MonsterFriend-Fore';
     color: white;
+    z-index: 3;
 }
