@@ -75,6 +75,7 @@ html {
 .norm {
     font-family: 'Determination-Sans';
     color: white;
+    text-transform: none;
 }
 .dr-text {
     font-family: 'DR-Title';
