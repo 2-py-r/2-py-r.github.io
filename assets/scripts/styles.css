@@ -78,6 +78,7 @@ html {
 }
 .dr-text {
     font-family: 'DR-Title';
+    text-transform: 'uppercase';
     color: white;
     z-index: 3;
 }
