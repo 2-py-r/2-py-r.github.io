@@ -73,7 +73,7 @@ html {
     z-index: 3;
 }
 .norm {
-    font-family: 'Determination-Sans';
+    font-family: 'Determination-Mono';
     color: white;
     text-transform: none;
 }
@@ -82,6 +82,6 @@ html {
     text-transform: 'uppercase';
     color: white;
     z-index: 3;
-    font-size: 32px;
-    letter-spacing: 3px;
+    font-size: 48px;
+    letter-spacing: 2.25px;
 }
