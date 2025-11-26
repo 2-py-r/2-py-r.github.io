@@ -10,24 +10,24 @@ Deltarune title font made by me. It's not very good, but only 30 minutes of work
 @font-face {
     /* Sans has less gaps */
     font-family: 'Determination-Sans';
-    src: url(../fonts/DTM-Sans.otf) format('opentype');
+    src: url(../fonts/DTM-Sans.woff) format('woff');
 }
 @font-face {
     /* Bigger gaps between each letter */
     font-family: 'Determination-Mono';
-    src: url(../fonts/DTM-Mono.otf) format('opentype');
+    src: url(../fonts/DTM-Mono.woff) format('woff');
 }
 @font-face {
     font-family: 'MonsterFriendB';
-    src: url(../fonts/MonsterFriend2Back.otf) format('opentype');
+    src: url(../fonts/MonsterFriend2Back.woff) format('woff');
 }
 @font-face {
     font-family: 'MonsterFriendC';
-    src: url(../fonts/MonsterFriend2Center.otf) format('opentype');
+    src: url(../fonts/MonsterFriend2Center.woff) format('woff');
 }
 @font-face {
     font-family: 'MonsterFriendF';
-    src: url(../fonts/MonsterFriend2Fore.otf) format('opentype');
+    src: url(../fonts/MonsterFriend2Fore.woff) format('woff');
 }
 @font-face {
     font-family: 'DR-Title';
