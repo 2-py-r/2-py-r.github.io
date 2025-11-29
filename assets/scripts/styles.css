@@ -47,7 +47,6 @@ html {
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .h1 {
     font-size: 24px;
@@ -55,6 +54,7 @@ html {
 .layer-text {
     position: absolute;
     left: 50%;
+    transform: translateX(-50%);
     white-space: normal;
     text-transform: none;
     text-align: center;
