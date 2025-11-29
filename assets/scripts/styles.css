@@ -112,8 +112,8 @@ html {
 }
 
 /* Remove default h1 margins inside the row so alignment is tight */
-/* .text-container > h1 { margin: 0; }
-.title-stack > h1 { margin: 0; } */
+/* .text-container > h1 { margin: 0; }*/
+.title-stack > h1 { margin: 0; }
 /* 
 nope
 .dr-text-b {
