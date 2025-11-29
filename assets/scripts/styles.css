@@ -47,6 +47,7 @@ html {
     position: relative;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 .h1 {
     font-size: 24px;
@@ -55,7 +56,7 @@ html {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    white-space: normal;
+    white-space: nowrap;
     text-transform: none;
     text-align: center;
 }
@@ -88,6 +89,26 @@ html {
     font-size: 48px;
     letter-spacing: 2.25px;
 }
+
+/* Wrapper for the layered title; we make it inline-block so it participates
+   in the flex row while its children are absolute-positioned layers */
+.title-stack {
+    position: relative;
+    display: inline-block;
+}
+
+/* Invisible element that reserves the space so absolute layers do not collapse
+   the wrapper. Keeps the other h1 on the same line. */
+.title-measure {
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+/* Remove default h1 margins inside the row so alignment is tight */
+.text-container > h1 { margin: 0; }
+.title-stack > h1 { margin: 0; }
 /* 
 nope
 .dr-text-b {
