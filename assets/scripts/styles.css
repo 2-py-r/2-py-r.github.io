@@ -54,9 +54,7 @@ html {
 }
 .layer-text {
     position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0 auto;
+    left: 50%;
     white-space: normal;
     text-transform: none;
     text-align: center;
