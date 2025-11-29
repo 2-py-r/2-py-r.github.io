@@ -45,7 +45,9 @@ html {
 }
 .text-container {
     position: relative;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .h1 {
     font-size: 24px;
@@ -61,7 +63,7 @@ html {
 }
 .title-text-b {
     font-family: 'MonsterFriendB';
-    color: black;
+    color: gray;
     opacity: 0.5;
     z-index: 1;
 }
