@@ -19,7 +19,8 @@ Deltarune title font made by me. It's not very good, but only 30 minutes of work
 }
 @font-face {
     font-family: 'MonsterFriendB';
-    src: url(../fonts/MonsterFriend2Back.woff) format('woff');
+    src: url(../fonts/MonsterFriend2Back.woff) format('woff'),
+         url(../fonts/MonsterFriend2Back.woff2) format('woff2');
 }
 @font-face {
     font-family: 'MonsterFriendC';
@@ -27,7 +28,8 @@ Deltarune title font made by me. It's not very good, but only 30 minutes of work
 }
 @font-face {
     font-family: 'MonsterFriendF';
-    src: url(../fonts/MonsterFriend2Fore.woff) format('woff');
+    src: url(../fonts/MonsterFriend2Fore.woff) format('woff'),
+         url(../fonts/MonsterFriend2Fore.woff2) format('woff2');
 }
 @font-face {
     font-family: 'DR-Title';
