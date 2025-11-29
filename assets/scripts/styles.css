@@ -41,6 +41,7 @@ Deltarune title font made by me. It's not very good, but only 30 minutes of work
     color: white;
 }
 html {
+    gap: 1rem;
     background-color: black;
 }
 .text-container {
@@ -48,6 +49,7 @@ html {
     display: flex;
     justify-content: center;
     width: 100%;
+    flex-wrap: wrap;
 }
 .h1 {
     font-size: 24px;
@@ -104,11 +106,14 @@ html {
     margin: 0;
     padding: 0;
     line-height: 1;
+    /* Match the visible foreground title so the reserved space is accurate */
+    font-family: 'MonsterFriendF';
+    font-size: 48px;
 }
 
 /* Remove default h1 margins inside the row so alignment is tight */
-.text-container > h1 { margin: 0; }
-.title-stack > h1 { margin: 0; }
+/* .text-container > h1 { margin: 0; }
+.title-stack > h1 { margin: 0; } */
 /* 
 nope
 .dr-text-b {
